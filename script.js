@@ -582,6 +582,325 @@ const data = [
       ]
     }
   },
+  {
+    character: "小美",
+    date: "秋11日",
+    preferences: {
+      favorite: [
+        { item: "金角发箍", points: 20 },
+        { item: "食人花沙发", points: 20 },
+        { item: "猫头鹰钟", points: 20 },
+        { item: "相机", points: 18 },
+        { item: "豹纹发箍", points: 15 },
+        { item: "纪念碑", points: 15 },
+        { item: "深思者", points: 15 },
+        { item: "首饰盒", points: 10 },
+        { item: "怪兽玩偶", points: 10 },
+        { item: "相册", points: 10 }
+        { item: "夏娃娃", points: 10 }
+        { item: "打字机", points: 10 }
+        { item: "玫瑰花", points: 10 }
+      ],
+      like: [
+        { item: "粉色猫耳头饰", points: 8 },
+        { item: "铃铛项圈", points: 6 },
+        { item: "水晶", points: 6 },
+        { item: "蜂蜜", points: 3 },
+        { item: "球拍", points: 3 },
+        { item: "石墩", points: 2 },
+        { item: "红宝石", points: 8 },
+        { item: "蓝宝石", points: 5 },
+        { item: "黄宝石", points: 4 },
+        { item: "孔雀菊", points: 3 },
+        { item: "能源石", points: 3 },
+      ],
+      neutral: [
+      ]
+    }
+  },
+  {
+    character: "梅林",
+    date: "冬21日",
+    preferences: {
+      favorite: [
+        { item: "金色壁钟", points: 25 },
+        { item: "机器人雕塑", points: 20 },
+        { item: "AI芯片组", points: 18 },
+        { item: "古物福袋", points: 15 },
+        { item: "宽纹毛地毯", points: 15 },
+        { item: "智能芯片组", points: 15 },
+        { item: "球形奖杯", points: 15 },
+        { item: "深思者", points: 15 },
+        { item: "能源灯", points: 10 },
+        { item: "旧电脑", points: 10 },
+        { item: "怪味浓汤", points: 10 },
+        { item: "玫瑰花", points: 10 },
+      ],
+      like: [
+        { item: "民用动力源", points: 7 },
+        { item: "小椅子", points: 6 },
+        { item: "小键盘", points: 6 },
+        { item: "钢珠", points: 6 },
+        { item: "数据光盘", points: 4 },
+        { item: "仙人掌果", points: 3 },
+        { item: "奶茶", points: 3 },
+        { item: "红宝石", points: 8 },
+        { item: "蓝宝石", points: 5 },
+        { item: "黄宝石", points: 4 },
+        { item: "孔雀菊", points: 3 },
+        { item: "能源石", points: 3 },
+      ],
+      neutral: [
+      ]
+    }
+  },
+  {
+    character: "诺拉",
+    date: "冬21日",
+    preferences: {
+      favorite: [
+        { item: "八音盒等候", points: 25 },
+        { item: "女神雕像", points: 20 },
+        { item: "水晶沙漏", points: 18 },
+        { item: "太阳脸", points: 15 },
+        { item: "木质八音盒", points: 15 },
+        { item: "顶罐男人", points: 12 },
+        { item: "条纹泳装", points: 12 },
+        { item: "达摩不倒翁", points: 12 },
+        { item: "扇子模型", points: 12 },
+        { item: "海鲜面", points: 12 },
+        { item: "绒毛兔", points: 10 },
+        { item: "疯狂拌面", points: 10 },
+        { item: "玫瑰花", points: 10 },
+      ],
+      like: [
+        { item: "三毛雪人", points: 9 },
+        { item: "钢琴凳", points: 8 },
+        { item: "怪味浓汤", points: 8 },
+        { item: "胸针", points: 6 },
+        { item: "兔儿许愿灯", points: 5 },
+        { item: "七彩柠檬汁", points: 4 },
+        { item: "蔬菜丸子汤", points: 2 },
+        { item: "红宝石", points: 8 },
+        { item: "蓝宝石", points: 5 },
+        { item: "黄宝石", points: 4 },
+        { item: "孔雀菊", points: 3 },
+        { item: "能源石", points: 3 },
+      ],
+      neutral: [
+      ]
+    }
+  },
+  {
+    character: "佩特拉",
+    date: "冬11日",
+    preferences: {
+      favorite: [
+        { item: "迷你机器人", points: 20 },
+        { item: "AI芯片组", points: 18 },
+        { item: "星星项圈", points: 18 },
+        { item: "东漫游记", points: 15 },
+        { item: "潜艇模型", points: 12 },
+        { item: "旧电脑", points: 10 },
+        { item: "高级能源石", points: 10 },
+        { item: "奶油鲑鱼汤", points: 10 },
+        { item: "怪兽玩偶", points: 10 },
+        { item: "能源灯", points: 10 },
+        { item: "玫瑰花", points: 10 },
+      ],
+      like: [
+        { item: "刚玉", points: 8 },
+        { item: "卡带盒", points: 6 },
+        { item: "水晶", points: 6 },
+        { item: "皮沙发", points: 6 },
+        { item: "画作风车", points: 6 },
+        { item: "数据光盘", points: 4 },
+        { item: "七彩柠檬汁", points: 4 },
+        { item: "红宝石", points: 8 },
+        { item: "蓝宝石", points: 5 },
+        { item: "黄宝石", points: 4 },
+        { item: "孔雀菊", points: 3 },
+        { item: "能源石", points: 3 },
+      ],
+      neutral: [
+      ]
+    }
+  },
+  {
+    character: "菲莉斯",
+    date: "夏20日",
+    preferences: {
+      favorite: [
+        { item: "持斧玩偶", points: 20 },
+        { item: "爱心壁灯", points: 20 },
+        { item: "铁架病床", points: 18 },
+        { item: "招财猫", points: 15 },
+        { item: "东漫游记", points: 15 },
+        { item: "磁石手镯", points: 15 },
+        { item: "兔子雪人", points: 15 },
+        { item: "黄宝石项链", points: 15 },
+        { item: "扇子模型", points: 12 },
+        { item: "海鲜面", points: 12 },
+        { item: "神奇玻璃罐", points: 12 },
+        { item: "南瓜虾仁浓汤", points: 10 },
+        { item: "护身符", points: 10 },
+        { item: "冬娃娃", points: 10 },
+        { item: "玫瑰花", points: 10 },
+      ],
+      like: [
+        { item: "简易膏药", points: 6 },
+        { item: "绷带", points: 2 },
+        { item: "解毒草", points: 2 },
+        { item: "药汁", points: 2 },
+        { item: "草药泥", points: 2 },
+        { item: "草莓", points: 2 },
+        { item: "红宝石", points: 8 },
+        { item: "蓝宝石", points: 5 },
+        { item: "黄宝石", points: 4 },
+        { item: "孔雀菊", points: 3 },
+        { item: "能源石", points: 3 },
+      ],
+      neutral: [
+      ]
+    }
+  },
+  {
+    character: "索尼娜",
+    date: "夏15日",
+    preferences: {
+      favorite: [
+        { item: "猫耳伞帽", points: 20 },
+        { item: "猫鱼雕塑", points: 15 },
+        { item: "小挎包", points: 15 },
+        { item: "球形奖杯", points: 15 },
+        { item: "黄宝石项链", points: 15 },
+        { item: "潜艇模型", points: 12 },
+        { item: "神灯", points: 12 },
+        { item: "秋娃娃", points: 10 },
+        { item: "蔬菜沙拉", points: 10 },
+        { item: "玫瑰花", points: 10 },
+      ],
+      like: [
+        { item: "贝壳项链", points: 8 },
+        { item: "紫绣球盆栽", points: 6 },
+        { item: "紫绣球小盆栽", points: 5 },
+        { item: "椰子", points: 4 },
+        { item: "磁盘", points: 3 },
+        { item: "生菜", points: 2 },
+        { item: "红宝石", points: 8 },
+        { item: "蓝宝石", points: 5 },
+        { item: "黄宝石", points: 4 },
+        { item: "孔雀菊", points: 3 },
+        { item: "能源石", points: 3 },
+      ],
+      neutral: [
+      ]
+    }
+  },
+  {
+    character: "金吉尔",
+    date: "冬1日",
+    preferences: {
+      favorite: [
+        { item: "女神雕像", points: 4 },
+        { item: "猫头鹰钟", points: 4 },
+        { item: "蝴蝶结发卡", points: 3 },
+        { item: "招财猫", points: 3 },
+        { item: "梅花灯笼", points: 3 },
+        { item: "东漫游记", points: 3 },
+        { item: "蓝宝石相框", points: 3 },
+        { item: "泡泡器", points: 2 },
+        { item: "珊瑚项链", points: 2 },
+        { item: "黄鸭头盔", points: 2 },
+        { item: "七彩柠檬汁", points: 2 },
+        { item: "防晒霜", points: 2 },
+        { item: "雨伞", points: 2 },
+        { item: "神奇玻璃罐", points: 2 },
+        { item: "木雕羊驼", points: 2 },
+        { item: "玫瑰花", points: 2 },
+      ],
+      like: [
+        { item: "红宝石", points: 1 },
+        { item: "蓝宝石", points: 1 },
+        { item: "黄宝石", points: 1 },
+        { item: "孔雀菊", points: 1 },
+        { item: "能源石", points: 1 },
+        { item: "贝壳", points: 1 },
+        { item: "贝壳项链", points: 1 },
+      ],
+      neutral: [
+      ]
+    }
+  },
+  {
+    character: "露西",
+    date: "秋7日",
+    preferences: {
+      favorite: [
+        { item: "猫头鹰钟", points: 20 },
+        { item: "双门雕花木柜", points: 18 },
+        { item: "球形奖杯", points: 15 },
+        { item: "破旧瓷盆", points: 12 },
+        { item: "柳刀刃", points: 12 },
+        { item: "相册", points: 12 },
+        { item: "水晶项链", points: 10 },
+        { item: "瓷瓶", points: 10 },
+        { item: "夏娃娃", points: 10 },
+        { item: "春娃娃", points: 10 },
+        { item: "玫瑰花", points: 10 },
+      ],
+      like: [
+        { item: "气球", points: 8 },
+        { item: "水晶", points: 6 },
+        { item: "星光珊瑚", points: 5 },
+        { item: "七彩柠檬汁", points: 4 },
+        { item: "苹果汁", points: 3 },
+        { item: "珊瑚", points: 2 },
+        { item: "红宝石", points: 8 },
+        { item: "蓝宝石", points: 5 },
+        { item: "黄宝石", points: 4 },
+        { item: "孔雀菊", points: 3 },
+        { item: "能源石", points: 3 },
+      ],
+      neutral: [
+      ]
+    }
+  },
+  {
+    character: "爱丽丝",
+    date: "秋1日",
+    preferences: {
+      favorite: [
+        { item: "假山", points: 15 },
+        { item: "种植指南", points: 15 },
+        { item: "神奇玻璃罐", points: 12 },
+        { item: "水晶项链", points: 10 },
+        { item: "冬娃娃", points: 10 },
+        { item: "秋娃娃", points: 10 },
+        { item: "玫瑰花", points: 10 },
+        { item: "蘑菇炖菜", points: 10 },
+        { item: "蔬菜沙拉", points: 10 },
+      ],
+      like: [
+        { item: "竹瓜蒸蛋", points: 8 },
+        { item: "红宝石", points: 8 },
+        { item: "萝卜炒饭", points: 6 },
+        { item: "蜂蜜", points: 6 },
+        { item: "蓝宝石", points: 5 },
+        { item: "烤肉", points: 4 },
+        { item: "南瓜", points: 2 },
+        { item: "孔雀菊", points: 3 },
+        { item: "竹瓜", points: 3 },
+        { item: "土壤", points: 3 },
+        { item: "花盆", points: 3 },
+        { item: "卷心萝卜", points: 3 },
+        { item: "彩虹花", points: 3 },
+        { item: "肥料", points: 2 },
+      ],
+      neutral: [
+      ]
+    }
+  },
 ];
 
 // 搜索功能
