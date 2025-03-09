@@ -596,10 +596,10 @@ const data = [
         { item: "深思者", points: 15 },
         { item: "首饰盒", points: 10 },
         { item: "怪兽玩偶", points: 10 },
-        { item: "相册", points: 10 }
-        { item: "夏娃娃", points: 10 }
-        { item: "打字机", points: 10 }
-        { item: "玫瑰花", points: 10 }
+        { item: "相册", points: 10 },
+        { item: "夏娃娃", points: 10 },
+        { item: "打字机", points: 10 },
+        { item: "玫瑰花", points: 10 },
       ],
       like: [
         { item: "粉色猫耳头饰", points: 8 },
