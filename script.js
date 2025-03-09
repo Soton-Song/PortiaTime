@@ -1,8 +1,9 @@
-// 模拟的 JSON 数据
-const data = [
-  {
-    character: "许医生",
-    date: "冬4日",
+// 数据部分
+const data = {
+  characters: [
+    {
+    "character": "许医生",
+    date: "4月4日",
     preferences: {
       favorite: [
         { item: "持刀玩偶", points: 20 },
@@ -34,8 +35,8 @@ const data = [
     }
   },
   {
-    character: "盖斯特",
-    date: "夏11日",
+    "character": "盖斯特",
+    date: "2月11日",
     preferences: {
       favorite: [
         { item: "三层书柜", points: 30 },
@@ -70,8 +71,8 @@ const data = [
     }
   },
   {
-    character: "明特",
-    date: "春1日",
+    "character": "明特",
+    date: "1月1日",
     preferences: {
       favorite: [
         { item: "按摩椅", points: 30 },
@@ -108,8 +109,8 @@ const data = [
     }
   },
   {
-    character: "艾伯特",
-    date: "夏10日",
+    "character": "艾伯特",
+    date: "2月10日",
     preferences: {
       favorite: [
         { item: "鲜红领结", points: 20 },
@@ -142,8 +143,8 @@ const data = [
     }
   },
   {
-    character: "阿尔洛",
-    date: "秋5日",
+    "character": "阿尔洛",
+    date: "3月5日",
     preferences: {
       favorite: [
         { item: "合金剑", points: 15 },
@@ -175,8 +176,8 @@ const data = [
     }
   },
   {
-    character: "艾米莉",
-    date: "春17日",
+    "character": "艾米莉",
+    date: "1月17日",
     preferences: {
       favorite: [
         { item: "包边地毯", points: 15 },
@@ -213,8 +214,8 @@ const data = [
     }
   },
   {
-    character: "安托因",
-    date: "春10日",
+    "character": "安托因",
+    date: "1月10日",
     preferences: {
       favorite: [
         { item: "猫头鹰钟", points: 20 },
@@ -248,8 +249,8 @@ const data = [
     }
   },
   {
-    character: "李牧师",
-    date: "秋9日",
+    "character": "李牧师",
+    date: "3月9日",
     preferences: {
       favorite: [
         { item: "女神雕像", points: 20 },
@@ -284,8 +285,8 @@ const data = [
     }
   },
   {
-    character: "麦当劳",
-    date: "春4日",
+    "character": "麦当劳",
+    date: "1月4日",
     preferences: {
       favorite: [
         { item: "黄金将奖杯", points: 18 },
@@ -316,8 +317,8 @@ const data = [
     }
   },
   {
-    character: "三姐",
-    date: "秋23日",
+    "character": "三姐",
+    date: "3月23日",
     preferences: {
       favorite: [
         { item: "红鹰", points: 25 },
@@ -353,8 +354,8 @@ const data = [
     }
   },
   {
-    character: "马尔斯",
-    date: "夏18日",
+    "character": "马尔斯",
+    date: "2月18日",
     preferences: {
       favorite: [
         { item: "渔夫镐", points: 20 },
@@ -387,8 +388,8 @@ const data = [
     }
   },
   {
-    character: "普雷斯利",
-    date: "夏23日",
+    "character": "普雷斯利",
+    date: "2月23日",
     preferences: {
       favorite: [
         { item: "藤编靠背椅", points: 20 },
@@ -419,8 +420,8 @@ const data = [
     }
   },
   {
-    character: "鲁索",
-    date: "春14日",
+    "character": "鲁索",
+    date: "1月14日",
     preferences: {
       favorite: [
         { item: "持杖玩偶", points: 20 },
@@ -452,8 +453,8 @@ const data = [
     }
   },
   {
-    character: "杰克",
-    date: "冬24日",
+    "character": "杰克",
+    date: "4月24日",
     preferences: {
       favorite: [
         { item: "持刀玩偶", points: 20 },
@@ -483,8 +484,8 @@ const data = [
     }
   },
   {
-    character: "托比",
-    date: "秋28日",
+    "character": "托比",
+    date: "3月28日",
     preferences: {
       favorite: [
         { item: "机器人雕塑", points: 20 },
@@ -521,8 +522,8 @@ const data = [
     }
   },
   {
-    character: "盖勒",
-    date: "春20日",
+    "character": "盖勒",
+    date: "1月20日",
     preferences: {
       favorite: [
         { item: "持杖玩偶", points: 20 },
@@ -551,8 +552,8 @@ const data = [
     }
   },
   {
-    character: "比撒",
-    date: "冬16日",
+    "character": "比撒",
+    date: "4月16日",
     preferences: {
       favorite: [
         { item: "假山", points: 15 },
@@ -583,8 +584,8 @@ const data = [
     }
   },
   {
-    character: "小美",
-    date: "秋11日",
+    "character": "小美",
+    date: "3月11日",
     preferences: {
       favorite: [
         { item: "金角发箍", points: 20 },
@@ -619,8 +620,8 @@ const data = [
     }
   },
   {
-    character: "梅林",
-    date: "冬21日",
+    "character": "梅林",
+    date: "4月21日",
     preferences: {
       favorite: [
         { item: "金色壁钟", points: 25 },
@@ -655,8 +656,8 @@ const data = [
     }
   },
   {
-    character: "诺拉",
-    date: "冬21日",
+    "character": "诺拉",
+    date: "4月21日",
     preferences: {
       favorite: [
         { item: "八音盒等候", points: 25 },
@@ -692,8 +693,8 @@ const data = [
     }
   },
   {
-    character: "佩特拉",
-    date: "冬11日",
+    "character": "佩特拉",
+    date: "4月11日",
     preferences: {
       favorite: [
         { item: "迷你机器人", points: 20 },
@@ -727,8 +728,8 @@ const data = [
     }
   },
   {
-    character: "菲莉斯",
-    date: "夏20日",
+    "character": "菲莉斯",
+    date: "2月20日",
     preferences: {
       favorite: [
         { item: "持斧玩偶", points: 20 },
@@ -765,8 +766,8 @@ const data = [
     }
   },
   {
-    character: "索尼娜",
-    date: "夏15日",
+    "character": "索尼娜",
+    date: "2月15日",
     preferences: {
       favorite: [
         { item: "猫耳伞帽", points: 20 },
@@ -798,8 +799,8 @@ const data = [
     }
   },
   {
-    character: "金吉尔",
-    date: "冬1日",
+    "character": "金吉尔",
+    date: "4月1日",
     preferences: {
       favorite: [
         { item: "女神雕像", points: 4 },
@@ -833,8 +834,8 @@ const data = [
     }
   },
   {
-    character: "露西",
-    date: "秋7日",
+    "character": "露西",
+    date: "3月7日",
     preferences: {
       favorite: [
         { item: "猫头鹰钟", points: 20 },
@@ -867,8 +868,8 @@ const data = [
     }
   },
   {
-    character: "爱丽丝",
-    date: "秋1日",
+    "character": "爱丽丝",
+    date: "3月1日",
     preferences: {
       favorite: [
         { item: "假山", points: 15 },
@@ -902,8 +903,8 @@ const data = [
     }
   },
   {
-    character: "阿迪特",
-    date: "秋20日",
+    "character": "阿迪特",
+    date: "3月20日",
     preferences: {
       favorite: [
         { item: "渔夫斧", points: 20 },
@@ -939,8 +940,8 @@ const data = [
     }
   },
   {
-    character: "欧克斯",
-    date: "夏8日",
+    "character": "欧克斯",
+    date: "2月8日",
     preferences: {
       favorite: [
         { item: "树椅", points: 18 },
@@ -979,8 +980,8 @@ const data = [
     }
   },
   {
-    character: "雷明顿",
-    date: "夏26日",
+    "character": "雷明顿",
+    date: "2月26日",
     preferences: {
       favorite: [
         { item: "功夫沙袋", points: 15 },
@@ -1011,8 +1012,8 @@ const data = [
     }
   },
   {
-    character: "鲍比",
-    date: "冬25日",
+    "character": "鲍比",
+    date: "4月25日",
     preferences: {
       favorite: [
         { item: "羊驼雕塑", points: 25 },
@@ -1049,8 +1050,8 @@ const data = [
     }
   },
   {
-    character: "托蒂",
-    date: "冬8日",
+    "character": "托蒂",
+    date: "4月8日",
     preferences: {
       favorite: [
         { item: "水晶鱼缸", points: 30 },
@@ -1084,8 +1085,8 @@ const data = [
     }
   },
   {
-    character: "姜戈",
-    date: "春15日",
+    "character": "姜戈",
+    date: "1月15日",
     preferences: {
       favorite: [
         { item: "持斧玩偶", points: 20 },
@@ -1118,8 +1119,8 @@ const data = [
     }
   },
   {
-    character: "大娃",
-    date: "秋15日",
+    "character": "大娃",
+    date: "3月15日",
     preferences: {
       favorite: [
         { item: "电锯", points: 30 },
@@ -1152,8 +1153,8 @@ const data = [
     }
   },
   {
-    character: "四娃",
-    date: "秋16日",
+    "character": "四娃",
+    date: "3月16日",
     preferences: {
       favorite: [
         { item: "葡萄架", points: 25 },
@@ -1184,8 +1185,8 @@ const data = [
     }
   },
   {
-    character: "五娃",
-    date: "秋16日",
+    "character": "五娃",
+    date: "3月16日",
     preferences: {
       favorite: [
         { item: "水晶鱼缸", points: 30 },
@@ -1216,8 +1217,8 @@ const data = [
     }
   },
   {
-    character: "七娃",
-    date: "秋16日",
+    "character": "七娃",
+    date: "3月16日",
     preferences: {
       favorite: [
         { item: "强壮胡须金鱼", points: 20 },
@@ -1254,8 +1255,8 @@ const data = [
     }
   },
   {
-    character: "二娃",
-    date: "秋15日",
+    "character": "二娃",
+    date: "3月15日",
     preferences: {
       favorite: [
         { item: "机器人雕塑", points: 20 },
@@ -1288,8 +1289,8 @@ const data = [
     }
   },
   {
-    character: "六娃",
-    date: "秋16日",
+    "character": "六娃",
+    date: "3月16日",
     preferences: {
       favorite: [
         { item: "女神雕像", points: 20 },
@@ -1323,8 +1324,8 @@ const data = [
     }
   },
   {
-    character: "三娃",
-    date: "秋15日",
+    "character": "三娃",
+    date: "3月15日",
     preferences: {
       favorite: [
         { item: "持杖玩偶", points: 20 },
@@ -1352,50 +1353,237 @@ const data = [
       ]
     }
   },
-];
+  {
+    "character": "艾克",
+    date: "1月1日",
+    preferences: {
+      favorite: [
+        { item: "军用动力源", points: 18 },
+        { item: "精密零件", points: 18 },
+        { item: "工业动力源", points: 15 },
+        { item: "智能芯片组", points: 15 },
+        { item: "高级动力源", points: 15 },
+        { item: "煎药锅", points: 15 },
+        { item: "线圈", points: 10 },
+        { item: "玫瑰花", points: 10 },
+        { item: "铁锅", points: 10 },
+      ],
+      like: [
+        { item: "红宝石", points: 8 },
+        { item: "简单电路", points: 7 },
+        { item: "蓝宝石", points: 5 },
+        { item: "铝线", points: 5 },
+      ],
+      neutral: [
+      ]
+    }
+  }
+  ],
+  recipes: [
+    {
+      name: "鱼羹",
+      ingredients: ["盐*1", "蛋*1", "鱼*1"],
+      attributes: ["最大体力值+5%", "体力+15"]
+    },
+    {
+      name: "水果蛋挞",
+      ingredients: ["蛋*1", "牛奶*1", "野果*1"],
+      attributes: ["暴击率+15%", "持续60秒"]
+    },
+    {
+      name: "蔬菜丸子汤",
+      ingredients: ["肉*1", "竹瓜*1"],
+      attributes: []
+    },
+    {
+      name: "南瓜焖饭",
+      ingredients: ["大米*1", "南瓜*1", "牛奶*1"],
+      attributes: []
+    },
+    {
+      name: "一盆肉汤",
+      ingredients: ["肉*1", "茴香*1"],
+      attributes: []
+    },
+    {
+      name: "竹瓜蒸蛋",
+      ingredients: ["盐*1", "蛋*1", "竹瓜*1"],
+      attributes: []
+    },
+    {
+      name: "经典肉酱面",
+      ingredients: ["肉*1", "面粉*1", "蛋*1"],
+      attributes: []
+    },
+    {
+      name: "辣椒茶",
+      ingredients: ["盐*1", "茶*1"],
+      attributes: []
+    },
+    {
+      name: "水果沙拉",
+      ingredients: ["野果*1", "色拉酱*1"],
+      attributes: []
+    },
+    {
+      name: "酱烧鱼头",
+      ingredients: ["金鲑*1", "盐*1", "糖*1"],
+      attributes: []
+    },
+    {
+      name: "甜甜的杂烩",
+      ingredients: ["苹果*1", "杏子*1", "野果*1", "南瓜*1", "金鲑*1"],
+      attributes: []
+    },
+    {
+      name: "海鲜大杂烩",
+      ingredients: ["金鲑*1", "猫儿跳*1", "伞鱼*1", "锦鲤*1", "气泡鱼*1"],
+      attributes: []
+    },
+    {
+      name: "没味道的杂烩",
+      ingredients: ["茴香*1", "香菜*1", "糖*1", "蜂蜜*1", "色拉酱*1"],
+      attributes: []
+    },
+    {
+      name: "咸咸的杂烩",
+      ingredients: ["盐*1", "辣椒*1", "糖*1", "茴香*1", "色拉酱*1"],
+      attributes: []
+    },
+    {
+      name: "辣味杂烩",
+      ingredients: ["鸡腿菇*1", "面粉*1", "生姜*1", "辣椒*1", "虾肉*1"],
+      attributes: []
+    },
+    {
+      name: "炖蘑菇菜",
+      ingredients: ["红蘑菇*1", "竹瓜*1", "辣椒*1"],
+      attributes: []
+    },
+    {
+      name: "怪味浓汤",
+      ingredients: ["辣椒*1", "蜂蜜*1", "茴香*1", "南瓜*1", "杏子*1"],
+      attributes: []
+    },
+    {
+      name: "蒸薯果",
+      ingredients: ["薯果*2"],
+      attributes: []
+    },
+    {
+      name: "蔬菜杂烩",
+      ingredients: ["生菜*1", "色拉酱*1"],
+      attributes: []
+    },
+    {
+      name: "蘑菇炖肉",
+      ingredients: ["盐*1", "肉*1", "鸡腿菇*1"],
+      attributes: []
+    },
+    {
+      name: "气泡鱼羹",
+      ingredients: ["气泡鱼*1", "竹瓜*1", "盐*1"],
+      attributes: []
+    },
+    {
+      name: "海鲜饭",
+      ingredients: ["大米*2", "竹瓜*1", "鱼*1"],
+      attributes: []
+    },
+    {
+      name: "香煎大排",
+      ingredients: ["肉*2", "盐*1", "野果*1"],
+      attributes: []
+    }
+  ]
+};
 
-// 搜索功能
-const searchInput = document.getElementById("search");
-const resultsDiv = document.getElementById("results");
+// 逻辑部分
+document.addEventListener("DOMContentLoaded", () => {
+  const searchCharacterInput = document.getElementById("searchCharacter");
+  const characterResultsDiv = document.getElementById("characterResults");
+  const searchRecipeInput = document.getElementById("searchRecipe");
+  const recipeResultsDiv = document.getElementById("recipeResults");
 
-searchInput.addEventListener("input", () => {
-  const query = searchInput.value.trim();
-  resultsDiv.innerHTML = ""; // 清空结果
+  // 搜索角色和物品
+  searchCharacterInput.addEventListener("input", () => {
+    const query = searchCharacterInput.value.trim().toLowerCase();
+    characterResultsDiv.innerHTML = ""; // 清空结果
 
-  if (query) {
-    data.forEach(character => {
-      const matchedItems = [];
+    if (query) {
+      data.characters.forEach(character => {
+        let matchFound = false;
 
-      // 搜索角色名
-      if (character.character.includes(query)) {
-        matchedItems.push(...Object.entries(character.preferences).flatMap(([key, items]) =>
-          items.map(item => ({ ...item, type: key }))
-        ));
-      }
+        // 检查角色名是否匹配
+        if (character.character.toLowerCase().includes(query)) {
+          matchFound = true;
 
-      // 搜索物品名
-      Object.entries(character.preferences).forEach(([key, items]) => {
-        items.forEach(item => {
-          if (item.item.includes(query)) {
-            matchedItems.push({ ...item, type: key });
-          }
+          const characterDiv = document.createElement("div");
+          characterDiv.className = "character";
+          characterDiv.textContent = `角色: ${character.character} (${character.date})`;
+          characterResultsDiv.appendChild(characterDiv);
+        }
+
+        // 显示物品列表（无论角色名是否匹配）
+        Object.entries(character.preferences).forEach(([key, items]) => {
+          items.forEach(item => {
+            if (character.character.toLowerCase().includes(query) || item.item.toLowerCase().includes(query)) {
+              if (!matchFound) {
+                const characterDiv = document.createElement("div");
+                characterDiv.className = "character";
+                characterDiv.textContent = `角色: ${character.character} (${character.date})`;
+                characterResultsDiv.appendChild(characterDiv);
+                matchFound = true;
+              }
+
+              const itemDiv = document.createElement("div");
+              itemDiv.className = "item";
+              itemDiv.textContent = `${key === "favorite" ? "非常喜爱" : "喜欢"}: ${item.item} (+${item.points})`;
+              characterResultsDiv.appendChild(itemDiv);
+            }
+          });
         });
       });
+    }
+  });
 
-      // 显示匹配结果
-      if (matchedItems.length > 0) {
-        const characterDiv = document.createElement("div");
-        characterDiv.className = "character";
-        characterDiv.textContent = `角色: ${character.character} (${character.date})`;
-        resultsDiv.appendChild(characterDiv);
+  // 搜索食谱
+searchRecipeInput.addEventListener("input", () => {
+    const query = searchRecipeInput.value.trim().toLowerCase();
+    recipeResultsDiv.innerHTML = ""; // 清空结果
 
-        matchedItems.forEach(match => {
-          const itemDiv = document.createElement("div");
-          itemDiv.className = "item";
-          itemDiv.textContent = `${match.type === "favorite" ? "非常喜欢" : match.type === "like" ? "喜欢" : "中立"}: ${match.item} (+${match.points})`;
-          resultsDiv.appendChild(itemDiv);
-        });
-      }
-    });
-  }
+    if (query) {
+      data.recipes.forEach(recipe => {
+        if (recipe.name.toLowerCase().includes(query)) {
+          const recipeDiv = document.createElement("div");
+          recipeDiv.className = "recipe";
+          recipeDiv.textContent = `食谱: ${recipe.name}`;
+
+          // 显示材料
+          const ingredientsDiv = document.createElement("div");
+          ingredientsDiv.className = "ingredients";
+          ingredientsDiv.textContent = `材料: ${recipe.ingredients.join(", ")}`;
+          recipeDiv.appendChild(ingredientsDiv);
+
+          // 显示属性
+          const attributesDiv = document.createElement("div");
+          attributesDiv.className = "attributes";
+          attributesDiv.innerHTML = `属性: ${recipe.attributes
+            .map(attr => {
+              return attr.replace(/([-+]?\d+%?)/g, match => {
+                if (match.startsWith("-")) {
+                  return `<span style="color:red;">${match}</span>`;
+                } else {
+                  return `<span style="color:green;">${match}</span>`;
+                }
+              });
+            })
+            .join(", ")}`;
+          recipeDiv.appendChild(attributesDiv);
+
+          recipeResultsDiv.appendChild(recipeDiv);
+        }
+      });
+    }
+  });
 });
