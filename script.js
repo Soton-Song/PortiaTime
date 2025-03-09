@@ -482,6 +482,106 @@ const data = [
       ]
     }
   },
+  {
+    character: "托比",
+    date: "秋28日",
+    preferences: {
+      favorite: [
+        { item: "机器人雕塑", points: 20 },
+        { item: "化石雕刻", points: 20 },
+        { item: "持斧玩偶", points: 20 },
+        { item: "持矛玩偶", points: 20 },
+        { item: "迷你机器人", points: 20 },
+        { item: "东漫游记", points: 15 },
+        { item: "香水苹果", points: 10 },
+        { item: "游戏手柄", points: 10 },
+        { item: "蝙蝠面罩", points: 10 },
+        { item: "玫瑰花", points: 10 },
+        { item: "弹弓", points: 10 },
+        { item: "墨镜", points: 10 },
+      ],
+      like: [
+        { item: "苹果汁", points: 6 },
+        { item: "苹果干", points: 6 },
+        { item: "急救包", points: 6 },
+        { item: "幽灵许愿灯", points: 6 },
+        { item: "放大镜", points: 4 },
+        { item: "辣椒牛肉汉堡", points: 4 },
+        { item: "汽水", points: 3 },
+        { item: "流氓头饰", points: 3 },
+        { item: "红宝石", points: 8 },
+        { item: "蓝宝石", points: 5 },
+        { item: "黄宝石", points: 4 },
+        { item: "孔雀菊", points: 3 },
+        { item: "能源石", points: 3 },
+        { item: "苹果", points: 2 },
+      ],
+      neutral: [
+      ]
+    }
+  },
+  {
+    character: "盖勒",
+    date: "春20日",
+    preferences: {
+      favorite: [
+        { item: "持杖玩偶", points: 20 },
+        { item: "画作:猫咪", points: 18 },
+        { item: "奔马雕塑", points: 15 },
+        { item: "黄金人参", points: 15 },
+        { item: "金鲑王鱼片", points: 15 },
+        { item: "多功能茶几", points: 15 },
+        { item: "旧水壶", points: 10 },
+        { item: "瓷瓶", points: 10 },
+        { item: "秘制鲑鱼炒饭", points: 10 },
+        { item: "小茶几", points: 10 },
+        { item: "玫瑰花", points: 10 }
+      ],
+      like: [
+        { item: "红茶", points: 3 },
+        { item: "茶叶", points: 2 },
+        { item: "红宝石", points: 8 },
+        { item: "蓝宝石", points: 5 },
+        { item: "黄宝石", points: 4 },
+        { item: "孔雀菊", points: 3 },
+        { item: "能源石", points: 3 },
+      ],
+      neutral: [
+      ]
+    }
+  },
+  {
+    character: "比撒",
+    date: "冬16日",
+    preferences: {
+      favorite: [
+        { item: "假山", points: 15 },
+        { item: "黄金人参", points: 15 },
+        { item: "多功能茶几", points: 15 },
+        { item: "灯笼", points: 15 },
+        { item: "神灯", points: 12 },
+        { item: "帆船模型", points: 12 },
+        { item: "书签", points: 10 },
+        { item: "瓷瓶", points: 10 },
+        { item: "小茶几", points: 10 }
+      ],
+      like: [
+        { item: "石桌", points: 6 },
+        { item: "书架", points: 5 },
+        { item: "红茶", points: 3 },
+        { item: "石墩", points: 2 },
+        { item: "生菜", points: 2 },
+        { item: "茶叶", points: 2 },
+        { item: "红宝石", points: 8 },
+        { item: "蓝宝石", points: 5 },
+        { item: "黄宝石", points: 4 },
+        { item: "孔雀菊", points: 3 },
+        { item: "能源石", points: 3 },
+      ],
+      neutral: [
+      ]
+    }
+  },
 ];
 
 // 搜索功能
