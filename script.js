@@ -1117,6 +1117,241 @@ const data = [
       ]
     }
   },
+  {
+    character: "大娃",
+    date: "秋15日",
+    preferences: {
+      favorite: [
+        { item: "电锯", points: 30 },
+        { item: "渔夫斧", points: 20 },
+        { item: "种植指南", points: 15 },
+        { item: "石狮子", points: 15 },
+        { item: "黄宝石项链", points: 15 },
+        { item: "顶罐男人", points: 12 },
+        { item: "水晶项链", points: 10 },
+        { item: "鱼羹", points: 10 },
+        { item: "旧水壶", points: 10 },
+        { item: "秘制鲑鱼炒饭", points: 10 },
+        { item: "玫瑰花", points: 10 },
+      ],
+      like: [
+        { item: "贝壳项链", points: 8 },
+        { item: "红宝石", points: 8 },
+        { item: "硬木版", points: 6 },
+        { item: "铁木板", points: 6 },
+        { item: "大木桶", points: 6 },
+        { item: "蓝宝石", points: 5 },
+        { item: "黄宝石", points: 4 },
+        { item: "孔雀菊", points: 3 },
+        { item: "能源石", points: 3 },
+        { item: "红蘑菇", points: 3 },
+        { item: "鸡腿菇", points: 3 },
+      ],
+      neutral: [
+      ]
+    }
+  },
+  {
+    character: "四娃",
+    date: "秋16日",
+    preferences: {
+      favorite: [
+        { item: "葡萄架", points: 25 },
+        { item: "灌溉塔", points: 25 },
+        { item: "汉斯的眼镜", points: 20 },
+        { item: "老式电话", points: 12 },
+        { item: "火箭模型", points: 12 },
+        { item: "黑胶唱机", points: 12 },
+        { item: "三阶魔方", points: 10 },
+        { item: "能源灯", points: 10 },
+        { item: "蜜汁叉烧（烤肉）", points: 10 },
+        { item: "玫瑰花", points: 10 },
+      ],
+      like: [
+        { item: "工作服", points: 8 },
+        { item: "红宝石", points: 8 },
+        { item: "蓝宝石", points: 5 },
+        { item: "黄宝石", points: 4 },
+        { item: "孔雀菊", points: 3 },
+        { item: "能源石", points: 3 },
+        { item: "仙人掌果", points: 3 },
+        { item: "蘑菇炖肉", points: 3 },
+        { item: "椰枣", points: 3 },
+        { item: "芥末", points: 2 },
+      ],
+      neutral: [
+      ]
+    }
+  },
+  {
+    character: "五娃",
+    date: "秋16日",
+    preferences: {
+      favorite: [
+        { item: "水晶鱼缸", points: 30 },
+        { item: "持矛玩偶", points: 25 },
+        { item: "水晶雕塑", points: 15 },
+        { item: "奔马雕塑", points: 15 },
+        { item: "小黄鸭冲浪板", points: 15 },
+        { item: "帆船模型", points: 12 },
+        { item: "香煎大排", points: 10 },
+        { item: "旧水壶", points: 10 },
+        { item: "橡胶轮胎", points: 10 },
+        { item: "玫瑰花", points: 10 },
+      ],
+      like: [
+        { item: "蔬菜沙拉", points: 8 },
+        { item: "红宝石", points: 8 },
+        { item: "蓝宝石", points: 5 },
+        { item: "黄宝石", points: 4 },
+        { item: "孔雀菊", points: 3 },
+        { item: "能源石", points: 3 },
+        { item: "树脂", points: 3 },
+        { item: "杏子", points: 2 },
+        { item: "橡胶果", points: 2 },
+        { item: "野蚕茧", points: 2 },
+      ],
+      neutral: [
+      ]
+    }
+  },
+  {
+    character: "七娃",
+    date: "秋16日",
+    preferences: {
+      favorite: [
+        { item: "强壮胡须金鱼", points: 20 },
+        { item: "豪华钓鱼包", points: 18 },
+        { item: "强壮灯笼鱼", points: 15 },
+        { item: "猫鱼雕塑", points: 15 },
+        { item: "经典鱼竿", points: 15 },
+        { item: "潜水头盔", points: 12 },
+        { item: "黄鸭头盔", points: 12 },
+        { item: "潜艇模型", points: 12 },
+        { item: "海鲜大杂烩", points: 12 },
+        { item: "香甜鱼子酱", points: 12 },
+        { item: "灯笼鱼", points: 10 },
+        { item: "瓷瓶", points: 10 },
+        { item: "胡须金鱼", points: 10 },
+        { item: "玫瑰花", points: 10 },
+      ],
+      like: [
+        { item: "玻璃镜片", points: 6 },
+        { item: "盐烤跳鱼", points: 6 },
+        { item: "红宝石", points: 8 },
+        { item: "蓝宝石", points: 5 },
+        { item: "黄宝石", points: 4 },
+        { item: "孔雀菊", points: 3 },
+        { item: "能源石", points: 3 },
+        { item: "强壮猫儿跳", points: 4 },
+        { item: "强壮金鲑", points: 4 },
+        { item: "金鲑", points: 4 },
+        { item: "猫儿跳", points: 4 },
+        { item: "入门鱼竿", points: 4 },
+      ],
+      neutral: [
+      ]
+    }
+  },
+  {
+    character: "二娃",
+    date: "秋15日",
+    preferences: {
+      favorite: [
+        { item: "机器人雕塑", points: 20 },
+        { item: "深色小桌", points: 15 },
+        { item: "精致的港币", points: 15 },
+        { item: "纪念碑", points: 15 },
+        { item: "大剧院", points: 15 },
+        { item: "秘制鱼丸汤", points: 15 },
+        { item: "办公桌", points: 15 },
+        { item: "顶罐女人", points: 12 },
+        { item: "打字机", points: 10 },
+        { item: "玫瑰花", points: 10 },
+      ],
+      like: [
+
+        { item: "红宝石", points: 8 },
+        { item: "蓝宝石", points: 5 },
+        { item: "衣物篓", points: 5 },
+        { item: "黄宝石", points: 4 },
+        { item: "孔雀菊", points: 3 },
+        { item: "能源石", points: 3 },
+        { item: "椰子", points: 4 },
+        { item: "放大镜", points: 4 },
+        { item: "奇怪的镜子", points: 4 },
+        { item: "奶茶", points: 3 },
+        { item: "红茶", points: 3 },
+      ],
+      neutral: [
+      ]
+    }
+  },
+  {
+    character: "六娃",
+    date: "秋16日",
+    preferences: {
+      favorite: [
+        { item: "女神雕像", points: 20 },
+        { item: "持斧玩偶", points: 20 },
+        { item: "战鼓", points: 18 },
+        { item: "羊驼帽", points: 12 },
+        { item: "驼帽挂件", points: 12 },
+        { item: "游戏手柄", points: 12 },
+        { item: "蝙蝠面罩", points: 12 },
+        { item: "火箭模型", points: 12 },
+        { item: "墨镜", points: 12 },
+        { item: "皮奇护身符", points: 10 },
+        { item: "电焊盔", points: 10 },
+        { item: "玫瑰花", points: 10 },
+      ],
+      like: [
+
+        { item: "红宝石", points: 8 },
+        { item: "工作裤", points: 8 },
+        { item: "蓝宝石", points: 5 },
+        { item: "黄宝石", points: 4 },
+        { item: "孔雀菊", points: 3 },
+        { item: "能源石", points: 3 },
+        { item: "完整的兽骨", points: 4 },
+        { item: "黄金石", points: 3 },
+        { item: "兽骨", points: 2 },
+        { item: "杏子", points: 2 },
+      ],
+      neutral: [
+      ]
+    }
+  },
+  {
+    character: "三娃",
+    date: "秋15日",
+    preferences: {
+      favorite: [
+        { item: "持杖玩偶", points: 20 },
+        { item: "持刀玩偶", points: 20 },
+        { item: "青色靠垫沙发", points: 18 },
+        { item: "折线纹地毯", points: 15 },
+        { item: "飞机模型", points: 15 },
+        { item: "太阳脸", points: 15 },
+        { item: "扇子模型", points: 12 },
+        { item: "水果沙拉", points: 12 },
+        { item: "玫瑰花", points: 10 },
+        { item: "蔬菜沙拉", points: 10 },
+      ],
+      like: [
+        { item: "红宝石", points: 8 },
+        { item: "竹瓜蒸蛋", points: 8 },
+        { item: "蓝宝石", points: 5 },
+        { item: "黄宝石", points: 4 },
+        { item: "孔雀菊", points: 3 },
+        { item: "能源石", points: 3 },
+        { item: "马桶塞", points: 3 },
+        { item: "南瓜焖饭", points: 2 },
+      ],
+      neutral: [
+      ]
+    }
+  },
 ];
 
 // 搜索功能
