@@ -79,7 +79,7 @@ const data = {
         { item: "画作:织女星", points: 30 },
         { item: "小型铁艺花架", points: 25 },
         { item: "机器人雕塑", points: 20 },
-        { item: "实木沙发", points: 20 },
+        { item: "实木长沙发", points: 20 },
         { item: "梦幻台灯", points: 18 },
         { item: "熏香炉", points: 15 },
         { item: "色王汤", points: 15 },
@@ -1493,6 +1493,81 @@ const data = {
     {
       name: "香煎大排",
       ingredients: ["肉*2", "盐*1", "野果*1"],
+      attributes: []
+    },
+    {
+      name: "辣味鱼羹",
+      ingredients: ["刃鱼*1", "辣椒*1", "盐*1"],
+      attributes: []
+    },
+    {
+      name: "香甜鱼子酱",
+      ingredients: ["蛤蟆鱼*2", "糖*1", "茴香*1"],
+      attributes: []
+    },
+    {
+      name: "五香牛排",
+      ingredients: ["牛肉*1", "茴香*1", "盐*1"],
+      attributes: []
+    },
+    {
+      name: "蜜汁叉烧（烤肉）",
+      ingredients: ["肉*2", "糖*1", "杏子*1"],
+      attributes: []
+    },
+    {
+      name: "烟熏鱼",
+      ingredients: ["盐*1", "金鲑*2", "茴香*1"],
+      attributes: []
+    },
+    {
+      name: "秘制鲑鱼炒饭",
+      ingredients: ["金鲑*1", "大米*1", "茴香*1"],
+      attributes: []
+    },
+    {
+      name: "辣酱拌面",
+      ingredients: ["肉*1", "面粉*1", "辣椒*1"],
+      attributes: []
+    },
+    {
+      name: "茶香气泡鱼羹",
+      ingredients: ["茶叶*1", "盐*1", "气泡鱼*2"],
+      attributes: []
+    },
+    {
+      name: "芝士虾焗饭",
+      ingredients: ["大米*1", "虾肉*2", "糖*1", "牛奶*1"],
+      attributes: []
+    },
+    {
+      name: "红菇刃鱼粥",
+      ingredients: ["红蘑菇*1", "竹瓜*1", "大米*1", "刃鱼*1"],
+      attributes: []
+    },
+    {
+      name: "南瓜虾仁浓汤",
+      ingredients: ["竹瓜*1", "南瓜*1", "虾肉*1"],
+      attributes: []
+    },
+    {
+      name: "果味蘑菇薄饼",
+      ingredients: ["面粉*2", "苹果*1", "红蘑菇*1"],
+      attributes: []
+    },
+    {
+      name: "海鲜面",
+      ingredients: ["猫儿跳*1", "面粉*1", "茴香*1"],
+      attributes: []
+    },
+    {
+      name: "脆香酱烤鲑鱼片",
+      ingredients: ["金鲑*1", "岩盐*1", "野果*1"],
+      attributes: []
+    },
+    {
+      name: "怪味浓汤",
+      ingredients: ["辣椒*1", "蜂蜜*1", "茴香*1", "南瓜*1", "杏子*1"],
       attributes: []
     }
   ]
