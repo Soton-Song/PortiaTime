@@ -306,7 +306,7 @@ const data = {
         { item: "红宝石", points: 8 },
         { item: "蓝宝石", points: 5 },
         { item: "黄宝石", points: 4 },
-        { item: "卷心萝卜", points: 3 },
+        { item: "卷芯萝卜", points: 3 },
         { item: "孔雀菊", points: 3 },
         { item: "能源石", points: 3 },
         { item: "肥料", points: 2 },
@@ -894,7 +894,7 @@ const data = {
         { item: "竹瓜", points: 3 },
         { item: "土壤", points: 3 },
         { item: "花盆", points: 3 },
-        { item: "卷心萝卜", points: 3 },
+        { item: "卷芯萝卜", points: 3 },
         { item: "彩虹花", points: 3 },
         { item: "肥料", points: 2 },
       ],
@@ -1264,7 +1264,7 @@ const data = {
         { item: "精致的港币", points: 15 },
         { item: "纪念碑", points: 15 },
         { item: "大剧院", points: 15 },
-        { item: "秘制鱼丸汤", points: 15 },
+        { item: "秘制鱼王汤", points: 15 },
         { item: "办公桌", points: 15 },
         { item: "顶罐女人", points: 12 },
         { item: "打字机", points: 10 },
@@ -1417,12 +1417,12 @@ const data = {
     },
     {
       name: "辣椒茶",
-      ingredients: ["盐*1", "茶*1"],
+      ingredients: ["辣椒*1", "茶*1"],
       attributes: []
     },
     {
       name: "水果沙拉",
-      ingredients: ["野果*1", "色拉酱*1"],
+      ingredients: ["野果*2", "色拉酱*1"],
       attributes: []
     },
     {
@@ -1472,7 +1472,7 @@ const data = {
     },
     {
       name: "蔬菜杂烩",
-      ingredients: ["生菜*1", "色拉酱*1"],
+      ingredients: ["生菜*2", "色拉酱*1"],
       attributes: []
     },
     {
@@ -1568,6 +1568,61 @@ const data = {
     {
       name: "怪味浓汤",
       ingredients: ["辣椒*1", "蜂蜜*1", "茴香*1", "南瓜*1", "杏子*1"],
+      attributes: []
+    },
+    {
+      name: "椰汁鸡丝焗饭",
+      ingredients: ["大米*1", "牛奶*1", "鸡肉*1", "椰子*1"],
+      attributes: []
+    },
+    {
+      name: "疯狂拌面",
+      ingredients: ["辣椒*2", "虾肉*1", "面粉*1", "芥末*1"],
+      attributes: []
+    },
+    {
+      name: "黄金萝卜羹",
+      ingredients: ["金鲑*2", "生姜*1", "卷芯萝卜*1", "蜂蜜*1"],
+      attributes: []
+    },
+    {
+      name: "海苔风味卷饼",
+      ingredients: ["野果*1", "海苔*1", "香菜*1", "面粉*1"],
+      attributes: []
+    },
+    {
+      name: "培根刃鱼卷",
+      ingredients: ["肉*1", "刃鱼*1", "椰枣*1", "岩盐*1"],
+      attributes: []
+    },
+    {
+      name: "萝卜炒饭",
+      ingredients: ["卷芯萝卜*2", "大米*1", "鸡腿菇*1", "盐*1"],
+      attributes: []
+    },
+    {
+      name: "椰汁牛排",
+      ingredients: ["椰子*1", "牛肉*2", "松果*1", "辣椒*1"],
+      attributes: []
+    },
+    {
+      name: "烟熏火腿",
+      ingredients: ["肉*1", "木炭*2", "桂皮*1", "岩盐*1"],
+      attributes: []
+    },
+    {
+      name: "秘制鱼王汤",
+      ingredients: ["气泡鱼王*1", "蜂王浆*1", "紫胶*1", "干酪*1"],
+      attributes: []
+    },
+    {
+      name: "金鲑王鱼片",
+      ingredients: ["金鲑王*1", "芥末*1", "海草*1", "杏子*1"],
+      attributes: []
+    },
+    {
+      name: "烤火鸡",
+      ingredients: ["鸡腿*1", "木炭*1", "蜂蜜*1", "生姜*1"],
       attributes: []
     }
   ]
