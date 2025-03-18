@@ -76,7 +76,7 @@ const data = {
     preferences: {
       favorite: [
         { item: "按摩椅", points: 30 },
-        { item: "画作:织女星", points: 30 },
+        { item: "画作:织女星5号", points: 30 },
         { item: "小型铁艺花架", points: 25 },
         { item: "机器人雕塑", points: 20 },
         { item: "实木长沙发", points: 20 },
@@ -354,7 +354,7 @@ const data = {
     }
   },
   {
-    "character": "马尔斯",
+    "character": "马尔斯（全能工匠铺老板）",
     date: "2月18日",
     preferences: {
       favorite: [
@@ -484,7 +484,7 @@ const data = {
     }
   },
   {
-    "character": "托比",
+    "character": "托比（玛莎的儿子）",
     date: "3月28日",
     preferences: {
       favorite: [
@@ -766,7 +766,7 @@ const data = {
     }
   },
   {
-    "character": "索尼娜",
+    "character": "索尼娜（圆桌餐厅）",
     date: "2月15日",
     preferences: {
       favorite: [
@@ -842,7 +842,7 @@ const data = {
         { item: "双门雕花木柜", points: 18 },
         { item: "球形奖杯", points: 15 },
         { item: "破旧瓷盆", points: 12 },
-        { item: "柳刀刃", points: 12 },
+        { item: "柳刀刃（柳刃刀）", points: 12 },
         { item: "相册", points: 12 },
         { item: "水晶项链", points: 10 },
         { item: "瓷瓶", points: 10 },
@@ -962,6 +962,7 @@ const data = {
       like: [
         { item: "红宝石", points: 8 },
         { item: "苹果汁", points: 6 },
+        { item: "油煎大排", points: 6 },
         { item: "杏子汁", points: 6 },
         { item: "蜜汁叉烧（烤肉）", points: 6 },
         { item: "木质相框", points: 6 },
@@ -1261,7 +1262,7 @@ const data = {
       favorite: [
         { item: "机器人雕塑", points: 20 },
         { item: "深色小桌", points: 15 },
-        { item: "精致的港币", points: 15 },
+        { item: "精致的钢笔", points: 15 },
         { item: "纪念碑", points: 15 },
         { item: "大剧院", points: 15 },
         { item: "秘制鱼王汤", points: 15 },
@@ -1278,7 +1279,7 @@ const data = {
         { item: "黄宝石", points: 4 },
         { item: "孔雀菊", points: 3 },
         { item: "能源石", points: 3 },
-        { item: "椰子", points: 4 },
+        { item: "椰子", points: 6 },
         { item: "放大镜", points: 4 },
         { item: "奇怪的镜子", points: 4 },
         { item: "奶茶", points: 3 },
@@ -1373,6 +1374,226 @@ const data = {
         { item: "简单电路", points: 7 },
         { item: "蓝宝石", points: 5 },
         { item: "铝线", points: 5 },
+      ],
+      neutral: [
+      ]
+    }},
+    {
+    "character": "以撒",
+    date: "4月16日",
+    preferences: {
+      favorite: [
+        { item: "多功能茶几", points: 15 },
+        { item: "黄金人参", points: 15 },
+        { item: "灯笼", points: 15 },
+        { item: "玫瑰花", points: 10 },
+        { item: "小茶几", points: 10 },
+        { item: "瓷瓶", points: 10 },
+      ],
+      like: [
+        { item: "石桌", points: 6 },
+        { item: "书架", points: 5 },
+        { item: "孔雀菊", points: 3 },
+        { item: "红茶", points: 3 },
+      ],
+      neutral: [
+      ]
+    }},
+    {
+    "character": "玛莎（玛莎糕点店）",
+    date: "1月23日",
+    preferences: {
+      favorite: [
+        { item: "芝士虾焗饭", points: 12 },
+        { item: "料理大师", points: 12 },
+        { item: "顶罐男人", points: 12 },
+        { item: "能源灯", points: 10 },
+        { item: "海鲜饭", points: 10 },
+        { item: "玫瑰花", points: 10 },
+        { item: "羽毛掸", points: 10 },
+      ],
+      like: [
+        { item: "烤面包", points: 6 },
+        { item: "蜂蜜", points: 6 },
+        { item: "岩盐", points: 6 },
+        { item: "丝绸布", points: 5 },
+        { item: "洗衣机", points: 4 },
+        { item: "孔雀菊", points: 3 },
+      ],
+      neutral: [
+      ]
+    }},
+    {
+    "character": "鲍利（好兄弟家具老板）",
+    date: "4月25日",
+    preferences: {
+      favorite: [
+        { item: "顶罐女人", points: 12 },
+        { item: "壁灯", points: 12 },
+        { item: "简易小桌", points: 10 },
+        { item: "辣椒茶", points: 10 },
+        { item: "玫瑰花", points: 10 },
+      ],
+      like: [
+        { item: "风扇", points: 8 },
+        { item: "羊驼木雕", points: 6 },
+        { item: "储物箱", points: 6 },
+        { item: "小椅子", points: 6 },
+        { item: "香皂", points: 5 },
+        { item: "紫胶", points: 4 },
+        { item: "孔雀菊", points: 3 },
+      ],
+      neutral: [
+      ]
+    }},
+    {
+    "character": "卡萝（裁缝店老板，马尔斯的妻子，三女儿的母亲）",
+    date: "2月7日",
+    preferences: {
+      favorite: [
+        { item: "料理大师", points: 12 },
+        { item: "老式电话", points: 12 },
+        { item: "首饰盒", points: 12 },
+        { item: "碳纤维", points: 10 },
+        { item: "燃料", points: 10 },
+        { item: "玫瑰花", points: 10 },
+      ],
+      like: [
+        { item: "真皮", points: 6 },
+        { item: "丝绸布", points: 6 },
+        { item: "洗衣机", points: 4 },
+        { item: "粗皮革", points: 4 },
+        { item: "孔雀菊", points: 3 },
+      ],
+      neutral: [
+      ]
+    }},
+    {
+    "character": "波莉",
+    date: "1月25日",
+    preferences: {
+      favorite: [
+        { item: "太阳脸", points: 15 },
+        { item: "口琴", points: 15 },
+        { item: "保暖服", points: 12 },
+        { item: "丝织围巾", points: 10 },
+        { item: "杏脯", points: 10 },
+        { item: "玫瑰花", points: 10 },
+      ],
+      like: [
+        { item: "尖鼻子雪人", points: 9 },
+        { item: "福字", points: 4 },
+        { item: "孔雀菊", points: 3 },
+      ],
+      neutral: [
+      ]
+    }
+    },
+    {
+    "character": "多莉",
+    date: "1月25日",
+    preferences: {
+      favorite: [
+        { item: "花环", points: 15 },
+        { item: "熊娃娃摆件", points: 10 },
+        { item: "水果沙拉", points: 10 },
+        { item: "杏脯", points: 10 },
+        { item: "玫瑰花", points: 10 },
+      ],
+      like: [
+        { item: "气球", points: 8 },
+        { item: "画作:街道", points: 6 },
+        { item: "汽水", points: 3 },
+      ],
+      neutral: [
+      ]
+     }
+    },
+    {
+    "character": "茉莉",
+    date: "1月25日",
+    preferences: {
+      favorite: [
+        { item: "金发娃娃", points: 15 },
+        { item: "太阳脸", points: 15 },
+        { item: "毛围脖", points: 12 },
+        { item: "水果蛋挞", points: 10 },
+        { item: "丝织围巾", points: 10 },
+        { item: "玫瑰花", points: 10 },
+      ],
+      like: [
+        { item: "蓝色围巾", points: 4 },
+        { item: "孔雀菊", points: 3 },
+      ],
+      neutral: [
+      ]
+     }
+    },
+    {
+    "character": "睡衣熊阿布",
+    date: "1月25日",
+    preferences: {
+      favorite: [
+        { item: "香水苹果", points: 12 },
+        { item: "蜂王浆", points: 12 },
+      ],
+      like: [
+        { item: "烤肉", points: 4 },
+        { item: "蜂蜜", points: 4 },
+      ],
+      neutral: [
+      ]
+     }
+    },
+    {
+    "character": "叶叶奶奶（南驿站商店老板，叶叶旅店）",
+    date: "2月5日",
+    preferences: {
+      favorite: [
+        { item: "太师椅", points: 18 },
+        { item: "珊瑚树", points: 12 },
+        { item: "木圆凳", points: 12 },
+        { item: "南瓜虾仁浓汤", points: 10 },
+        { item: "玫瑰花", points: 10 },
+      ],
+      like: [
+        { item: "星光珊瑚", points: 5 },
+        { item: "孔雀菊", points: 3 },
+      ],
+      neutral: [
+      ]
+    }
+  },
+    {
+    "character": "达娜（矿场老板）",
+    date: "  ",
+    preferences: {
+      favorite: [
+        { item: "黄金萝卜羹", points: 12 },
+        { item: "简易屏风", points: 12 },
+        { item: "玫瑰花", points: 10 },
+      ],
+      like: [
+        { item: "烤面包", points: 4 },
+        { item: "孔雀菊", points: 3 },
+      ],
+      neutral: [
+      ]
+    }
+  },
+    {
+    "character": "好吃狗",
+    date: "3月27日",
+    preferences: {
+      favorite: [
+        { item: "茶香气泡鱼羹", points: 15 },
+        { item: "秘制鲑鱼炒饭", points: 12 },
+        { item: "培根刃鱼卷", points: 12 },
+        { item: "香水苹果", points: 12 },
+      ],
+      like: [
+        { item: "狗粮", points: 6 },
+        { item: "烟熏肉", points: 6 },
       ],
       neutral: [
       ]
